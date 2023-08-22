@@ -55,6 +55,8 @@ Refer to the following code example to add formatted HTML content to the Tooltip
 The Tooltip content can be dynamically loaded  by making use of the AJAX call. The AJAX request is usually made within the `beforeRender`
 event of the Tooltip, and then the Tooltip's `content` is assigned the value retrieved on it's success.
 
+>Note: The Tooltip target Id is a unique identifier used to associate Tooltips with specific elements on a webpage or application interface. When setting the Tooltip **target** value as a GUID (Globally Unique Identifier), it's important to note that the GUID must start with a combination of **letters** before the numeric portion of the GUID.
+
 {% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
