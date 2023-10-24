@@ -17,15 +17,23 @@ The following steps explains you on how to create and how to show/hide your Spin
 
 * Import the `createSpinner` method from `ej2-popups` library into your file as shown in below.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { createSpinner } from '@syncfusion/ej2-popups';
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 * Show and hide this spinner by using `showSpinner` and `hideSpinner` methods for loading in your page and import them in your file as shown in below.
 
-```ts
+{% tabs %}
+{% highlight ts tabtitle="app.ts" %}
+
 import { showSpinner, hideSpinner } from '@syncfusion/ej2-popups';
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Create the Spinner globally
 
