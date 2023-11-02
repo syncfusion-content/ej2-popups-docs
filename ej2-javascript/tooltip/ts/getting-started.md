@@ -11,8 +11,7 @@ domainurl: ##DomainURL##
 
 # Getting started in ##Platform_Name## Tooltip control
 
-This section briefly explains how to create a simple **Tooltip** component and configure its available functionalities in TypeScript,
-using Essential JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
+This section briefly explains how to create a simple **Tooltip** component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
 
 > This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
 
@@ -162,9 +161,7 @@ The output will be as follows:
 
 ## Initialize Tooltip within a container
 
-You can create Tooltips on multiple targets within a container. To do so, you have to define specific target elements to the `target`
-property so that the Tooltip is initialized only on matched targets within a container. In this case, the Tooltip content is assigned
-from the `title` attribute of the target element.
+You can create Tooltips on multiple targets within a container. To do so, you have to define specific target elements to the `target` property so that the Tooltip is initialized only on matched targets within a container. In this case, the Tooltip content is assigned from the `title` attribute of the target element.
 
 Refer to the following code example to create a Tooltip on multiple targets within a container.
 
@@ -179,8 +176,7 @@ Refer to the following code example to create a Tooltip on multiple targets with
           
 {% previewsample "page.domainurl/code-snippet/tooltip/getting-started-2-cs2" %}
 
-> In the above sample, `#details` refers to the container's id, and the target `.e-info` refers to the target elements available
-> within that container.
+> In the above sample, `#details` refers to the container's id, and the target `.e-info` refers to the target elements available within that container.
 
 ## See Also
 
